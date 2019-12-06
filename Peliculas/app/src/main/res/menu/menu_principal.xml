@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.ipo2.peliculas.Principal">
+    <item
+        android:id="@+id/listarPeliculas"
+        android:icon="@drawable/peliculas"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/aniadirPeliculas"
+        android:icon="@drawable/aniadir"
+        android:title="@string/aniadirPelicula"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/acercaDe"
+        android:icon="@drawable/question"
+        android:title="@string/acercaDe"
+        app:showAsAction="always" />
+</menu>
